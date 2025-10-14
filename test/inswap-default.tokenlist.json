@@ -12,17 +12,6 @@
   "tokens": [
     {
       "chainId": 31337,
-      "address": "0x8A791620dd6260079BF849Dc5567aDC3F2FdC318",
-      "decimals": 18,
-      "name": "Wrapped ETH",
-      "symbol": "WETH",
-      "tags": [
-        "Top"
-      ],
-      "logoURI": "https://raw.githubusercontent.com/traderjoe-xyz/joe-tokenlists/main/logos/0xd00ae08403B9bbb9124bB305C09058E32C39A48c/logo.png"
-    },
-    {
-      "chainId": 31337,
       "address": "0xB7f8BC63BbcaD18155201308C8f3540b07f84F5e",
       "decimals": 6,
       "name": "TT",
@@ -31,7 +20,7 @@
         "Top"
       ],
       "logoURI": "https://raw.githubusercontent.com/traderjoe-xyz/joe-tokenlists/main/logos/0xB6076C93701D6a07266c31066B298AeC6dd65c2d/logo.png"
-    },
+    }
   ],
   "timestamp": "2024-02-01T00:00:00+00:00"
 }
