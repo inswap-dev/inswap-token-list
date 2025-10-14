@@ -1,0 +1,26 @@
+{
+  "name": "Inswap Default",
+  "logoURI": "https://raw.githubusercontent.com/traderjoe-xyz/joe-tokenlists/main/logos/0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7/logo.png",
+  "keywords": [
+    "inswap"
+  ],
+  "version": {
+    "major": 228,
+    "minor": 0,
+    "patch": 0
+  },
+  "tokens": [
+    {
+      "chainId": 31337,
+      "address": "0xB7f8BC63BbcaD18155201308C8f3540b07f84F5e",
+      "decimals": 6,
+      "name": "TT",
+      "symbol": "TT",
+      "tags": [
+        "Top"
+      ],
+      "logoURI": "https://raw.githubusercontent.com/traderjoe-xyz/joe-tokenlists/main/logos/0xB6076C93701D6a07266c31066B298AeC6dd65c2d/logo.png"
+    }
+  ],
+  "timestamp": "2024-02-01T00:00:00+00:00"
+}
