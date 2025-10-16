@@ -1,0 +1,10 @@
+[
+  {
+      "name": "insiders",
+      "address": "0x3099ba1C5018FA015230F47ceD588f20D4B20000",
+      "symbol": "INS",
+      "decimals": 18,
+      "chainId": 196,
+      "logoURI": "https://gateway.pinata.cloud/ipfs/QmZnVxSzfS7RSzstzR3nHfirFdvxRDoq8nZzda7TERs57Z"
+  }
+]

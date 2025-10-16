@@ -19,11 +19,12 @@ const worldchain = require("./tokens/worldchain.json");
 const zora = require("./tokens/zora.json");
 const bridgeUtils = require("@uniswap/token-list-bridge-utils");
 const unichain = require("./tokens/unichain.json");
+const xlayer = require("./tokens/xlayer.json");
 
 module.exports = function buildList() {
   const parsed = version.split(".");
   const l1List = {
-    name: "Uniswap Labs Default",
+    name: "Inswap Labs Default",
     timestamp: new Date().toISOString(),
     version: {
       major: +parsed[0],
@@ -32,27 +33,9 @@ module.exports = function buildList() {
     },
     tags: {},
     logoURI: "ipfs://QmNa8mQkrNKp1WEEeGjFezDmDeodkWRevGFN8JCV7b4Xir",
-    keywords: ["uniswap", "default"],
+    keywords: ["inswap", "default"],
     tokens: [
-      ...mainnet,
-      ...ropsten,
-      ...goerli,
-      ...kovan,
-      ...rinkeby,
-      ...polygon,
-      ...mumbai,
-      ...optimism,
-      ...celo,
-      ...arbitrum,
-      ...bnb,
-      ...sepolia,
-      ...avalanche,
-      ...base,
-      ...blast,
-      ...zksync,
-      ...worldchain,
-      ...zora,
-      ...unichain,
+      ...xlayer
     ]
       // sort them by symbol for easy readability
       .sort((t1, t2) => {
